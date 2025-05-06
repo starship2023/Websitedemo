@@ -9,7 +9,7 @@ body{
   font-family:Comic Relief;
 }
 #title{
-	align:left;
+	box-align:left;
 	font-size:40px;
 }
 .logo{
@@ -40,6 +40,8 @@ body{
   background-color: #ddd;
   color: black;
 }
-
+.menu-item.active {
+  background-color: lightblue;
+}
 /* Add a color to the active/current link */
 
